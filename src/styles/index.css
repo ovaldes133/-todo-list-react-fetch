@@ -1,12 +1,36 @@
-
-/* 
-
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+body {
+    background-color: rgba(28, 247, 255, 0.575);
+}
+.contenedor {
+    background-color: rgba(11, 61, 241, 0.642);
+    margin:auto;
+    width: 400px;
+    height: 400px;
+    margin-top: 50px;
+}
+button {
+    border-radius: 8px;
+    background-color: rgb(2, 251, 197);
+    float: right;
+}
+.buttoncito {
+    border-radius: 8px;
+    background-color: rgb(255, 251, 16);
+    float: right;
+    display: block;
+}
+input {
+    padding-right: 100px;
+    border-radius: 4px;
+}
+.textito {
+    background-color: rgb(255, 255, 240);
+    padding: 10px;
+    border-radius: 4px;
+}
+.contenedor .textito:hover {
+    background-color: rgb(252, 244, 230);
+}
+.contenedor .buttoncito:hover {
+    background-color: rgb(255, 255, 240);
+}
